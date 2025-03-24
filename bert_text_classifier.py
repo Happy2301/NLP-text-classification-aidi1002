@@ -1,5 +1,4 @@
 # BERT Text Classifier for AIDI 1002 Final Project
-# --------------------------------------------------
 # This script loads train.csv, tokenizes with BERT, trains a classifier, and prints evaluation metrics
 
 import pandas as pd
