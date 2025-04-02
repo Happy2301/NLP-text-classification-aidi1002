@@ -56,5 +56,5 @@ python bert_predict_submission.py
 - `numpy`
 
 # Author
-- Harpreet Singh 
+- Harpreet Singh and Ashish Acharya
 - AIDI 1002 - Winter 2025, Georgian College
