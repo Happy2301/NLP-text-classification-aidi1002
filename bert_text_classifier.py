@@ -85,6 +85,6 @@ with torch.no_grad():
         y_pred.extend(predictions.cpu().numpy())
 
 # Metrics
-print("\n✅ BERT Classification Report:")
+print("\n BERT Classification Report:")
 print(classification_report(y_true, y_pred))
 print(f"Accuracy: {accuracy_score(y_true, y_pred):.4f}")
