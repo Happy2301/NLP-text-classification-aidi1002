@@ -31,7 +31,7 @@ The main goal of this project is to classify whether a given tweet/text indicate
 - `pandas`
 - `numpy`
 
-## Cotribution
+## Contribution
 
 In this project, we reproduced and fine-tuned the DistilBERT model for text classification using the AG News dataset, which consists of over 100,000 news articles categorized into four classes: World, Sports, Business, and Sci/Tech.
 
