@@ -8,19 +8,16 @@ The main goal of this project is to classify whether a given tweet/text indicate
 
 ## Project Structure
 
-- `bert_text_classifier.py` – BERT-based text classification model.
-- `bert_predict_submission.py` – Code for generating predictions on the test set using the trained BERT model.
-- `bert_model.pth` – Trained BERT model weights (stored locally).
-- `train.csv`, `test.csv` – Dataset files used for training and testing.
-- `submission.csv` – Output predictions for submission.
-- `NLP text classification model Github.ipynb` – Notebook showing traditional model pipeline.
+- `reproduction.ipynb` – Code for repriducing the paper on the SST-2 dataset using the trained DistilBERT model.
+- `contribution.ipynb` – Applying DistilBERT to IMDb dataset to improve accuracy.
+- `comparison.ipynb` - Compring transformer based approach to statistical appraches like word2vec and TF-IDF.
 - `README.md` – Project overview and details.
 
 ## Models Used
 
+- **DistilBERT (transformer-based)** – added as a contribution to enhance the model.
 - Logistic Regression (TF-IDF)
 - Word2Vec
-- **BERT (transformer-based)** – added as a contribution to enhance the model.
 
 ## Dependencies
 
@@ -28,12 +25,13 @@ The main goal of this project is to classify whether a given tweet/text indicate
 - `torch`
 - `transformers`
 - `scikit-learn`
+- `torch`
 - `pandas`
 - `numpy`
 
 ## Contribution
 
-In this project, we reproduced and fine-tuned the DistilBERT model for text classification using the AG News dataset, which consists of over 100,000 news articles categorized into four classes: World, Sports, Business, and Sci/Tech.
+In this project, we reproduced and fine-tuned the DistilBERT model for text classification using the SST-2 which is used in GLUE benchmark to check accuracy of NLP systems.
 
 Our main contribution was to evaluate the performance of the pre-trained DistilBERT model on a new dataset not originally used in the source paper. This allowed us to assess the model's generalizability and robustness in a different context.
 
@@ -41,9 +39,8 @@ Additionally, we:
 
 Fine-tuned the model using adjusted parameters (batch size, epochs, and learning rate).
 
-Analyzed classification metrics such as accuracy, precision, recall, and confusion matrix.
+Analyzed classification metrics such as accuracy.
 
-Compared the model’s performance before and after fine-tuning.
+Compared the model’s performance before and after fine-tuning and with other models such as TF-IDF and Word2Vec for NLP tasks.
 
 The results showed that DistilBERT maintained strong performance even on a different dataset, confirming its effectiveness as a lightweight transformer model for text classification tasks.
-
