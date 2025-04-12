@@ -1,4 +1,4 @@
-# NLP Text Classification with BERT
+# NLP Text Classification with DistilBERT
 
 This project is part of the AIDI 1002 Final Project. It involves building a text classification model using both traditional and transformer-based approaches.
 
