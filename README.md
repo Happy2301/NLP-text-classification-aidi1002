@@ -12,7 +12,7 @@ The main goal of this project is to classify whether a given tweet/text indicate
 
 - `reproduction.ipynb` – Code for repriducing the paper on the SST-2 dataset using the trained DistilBERT model.
 - `contribution.ipynb` – Applying DistilBERT to IMDb dataset to improve accuracy.
-- `comparison.ipynb` - Compring transformer based approach to statistical appraches like word2vec and TF-IDF.
+- `comparison.ipynb` - Compring transformer based approach to statistical appraches like TF-IDF and neural network based Word2Vec.
 - `README.md` – Project overview and details.
 
 ## Models Used
