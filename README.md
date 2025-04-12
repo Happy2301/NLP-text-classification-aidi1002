@@ -2,6 +2,8 @@
 
 This project is part of the AIDI 1002 Final Project. It involves building a text classification model using both traditional and transformer-based approaches.
 
+Authors: Harpreet Sandhu and Ashish Acharya
+
 ## Objective
 
 The main goal of this project is to classify whether a given tweet/text indicates a disaster or not.
