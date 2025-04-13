@@ -6,7 +6,8 @@ Authors: Harpreet Singh and Ashish Acharya
 
 ## Objective
 
-The main goal of this project is to classify whether a given tweet/text indicates a disaster or not.
+The main goal of this project is to reproduce the results of the [DistilBERT paper](https://arxiv.org/abs/1910.01108) and contribute to the paper by testing the
+model on other types of datasets like IMDb review dataset for sentiment analysis. We also do comparison of this model with older models like Word2Vec and TF-IDF.
 
 ## Project Structure
 
